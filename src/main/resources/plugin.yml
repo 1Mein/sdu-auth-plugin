@@ -1,0 +1,11 @@
+name: sdu-auth
+version: '1.0.0'
+main: org.editz.sduAuth.SduAuth
+api-version: '1.20'
+commands:
+  hello:
+    description: "hello test"
+    usage: "/hello"
+  login:
+    description: "Авторизация"
+    usage: "/login <id> <password>"
